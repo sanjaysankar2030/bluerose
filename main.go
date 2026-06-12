@@ -6,13 +6,14 @@ import (
 )
 
 func main() {
-	arr := []int{10, 20, -40, 60, -50, 60}
+	arr := []int{10, 20, 10, 5, 15}
 	a := array.InitArray(arr)
-	sum:=a.Kadane()
-	fmt.Println(sum.WithSubarray())
-	fmt.Println(sum)
-	
-//	prefixsum:=a.PrefixSum
-//	sliding_window[]:=a.SlidingWindow
+//	fmt.Println(a.Length())
+//	sum:=a.Kadane()
+//	fmt.Println(sum.WithSubarray())
+//	fmt.Println(sum)
+prefixsum:=a.PrefixSum()
+fmt.Print(prefixsum.PrefixSumArray())
+//sliding_window[]:=a.SlidingWindow
 }
 
