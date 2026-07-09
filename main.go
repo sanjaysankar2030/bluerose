@@ -7,7 +7,7 @@ import (
 
 func main() {
 	arr := []int{10, 20, 10, 5, 15}
-	// // arr2 := []int{5, 2, -1, 0, 3}
+	// arr2 := []int{5, 2, -1, 0, 3}
 	// a := array.InitArray(arr)
 	b := array.InitArray(arr)
 	// fmt.Println(a.Length())
